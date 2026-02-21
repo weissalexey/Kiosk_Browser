@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.kioskbrowser.app-mergeDebugResources-30:/layout/activity_main.xml",
+        "source": "com.example.kioskbrowser.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-mergeDebugResources-30:/layout/activity_settings.xml",
+        "source": "com.example.kioskbrowser.app-main-33:/layout/activity_settings.xml"
+    }
+]

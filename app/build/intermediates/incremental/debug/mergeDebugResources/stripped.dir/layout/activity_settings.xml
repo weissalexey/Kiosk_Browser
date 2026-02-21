@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start page URL" />
+
+        <EditText
+            android:id="@+id/edStartUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="https://..."
+            android:inputType="textUri"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save &amp; Apply"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go Home"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnExitApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exit App"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue bar (logo panel)"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swBarEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show blue bar"
+            android:layout_marginTop="8dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swBarOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bar over page (do not resize site)"
+            android:layout_marginTop="4dp" />
+
+        <RadioGroup
+            android:id="@+id/rgBarPosition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <RadioButton
+                android:id="@+id/rbTop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Top" />
+
+            <RadioButton
+                android:id="@+id/rbBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bottom"
+                android:layout_marginStart="16dp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnPickImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Choose JPG/PNG logo"
+            android:layout_marginTop="8dp" />
+
+        <ImageView
+            android:id="@+id/imgPreview"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="8dp"
+            android:background="#0099CC"
+            android:scaleType="centerCrop"
+            android:contentDescription="@null" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sound"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swBeepOnError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Beep on page errors"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zoom"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvZoomValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100%"
+            android:layout_marginTop="6dp" />
+
+        <SeekBar
+            android:id="@+id/seekZoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:max="100" />
+
+    </LinearLayout>
+</ScrollView>

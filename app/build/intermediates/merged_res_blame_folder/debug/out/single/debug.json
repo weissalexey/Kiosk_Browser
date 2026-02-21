@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/drawable_ic_keyboard_off.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_keyboard_off.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/xml_network_security_config.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/drawable_ic_settings.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/drawable_ic_keyboard.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_keyboard.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/layout_activity_settings.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/layout/activity_main.xml"
+    }
+]

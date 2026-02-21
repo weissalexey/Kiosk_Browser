@@ -1,0 +1,33 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_keyboard
+drawable ic_keyboard_off
+drawable ic_settings
+id barContainer
+id barImage
+id btnClose
+id btnExitApp
+id btnHome
+id btnKeyboard
+id btnPickImage
+id btnSave
+id btnSettings
+id edStartUrl
+id imgPreview
+id rbBottom
+id rbTop
+id rgBarPosition
+id rootLayout
+id seekZoom
+id swBarEnabled
+id swBarOverlay
+id swBeepOnError
+id tvZoomValue
+id webView
+layout activity_main
+layout activity_settings
+string app_name
+string menu_keyboard
+string menu_settings
+style Theme.KioskBrowser
+xml network_security_config

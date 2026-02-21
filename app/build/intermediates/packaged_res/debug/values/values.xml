@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KioskBrowser</string>
+    <string name="menu_keyboard">Keyboard</string>
+    <string name="menu_settings">Settings</string>
+    <style name="Theme.KioskBrowser" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+    </style>
+</resources>
