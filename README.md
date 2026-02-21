@@ -394,7 +394,7 @@ Scan the QR code below:
 </p>
 
 Or donate directly via PayPal:
-https://www.paypal.me/YOUR_LINK
+https://www.paypal.me/aweiss7
 
 Every contribution supports continued development and maintenance.
 
