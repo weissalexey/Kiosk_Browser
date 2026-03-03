@@ -18,6 +18,9 @@ object Prefs {
     // Text zoom (50..150)
     const val KEY_TEXT_ZOOM = "text_zoom"
 
+    // Keep input selected after scanner Enter when IME is disabled
+    const val KEY_KEEP_SELECTION = "keep_selection"
+
     fun getStartUrl(ctx: Context): String {
         val p = ctx.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
         return p.getString(KEY_START_URL, "https://service.carstensen.eu/") ?: "https://service.carstensen.eu/"
@@ -36,6 +39,16 @@ object Prefs {
     fun setImeEnabled(ctx: Context, enabled: Boolean) {
         val p = ctx.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
         p.edit().putBoolean(KEY_IME_ENABLED, enabled).apply()
+    }
+
+    fun keepSelection(ctx: Context): Boolean {
+        val p = ctx.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
+        return p.getBoolean(KEY_KEEP_SELECTION, true)
+    }
+
+    fun setKeepSelection(ctx: Context, enabled: Boolean) {
+        val p = ctx.getSharedPreferences(PREF_NAME, Context.MODE_PRIVATE)
+        p.edit().putBoolean(KEY_KEEP_SELECTION, enabled).apply()
     }
 
     fun isBarEnabled(ctx: Context): Boolean {

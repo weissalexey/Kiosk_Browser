@@ -205,22 +205,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aw\\Downloads\\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\\KioskBrowserNoIME_UI_full\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\aw\\Downloads\\KioskBrowserNoIME_UI_full_patched_v3\\patched3\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "63",
-                        "endLines": "3",
-                        "endColumns": "12",
-                        "endOffsets": "208"
+                        "startLines": "1,3,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "16,117,66",
+                        "endColumns": "49,50,50",
+                        "endOffsets": "61,163,112"
                     },
                     "to": {
-                        "startLines": "6377",
-                        "startColumns": "4",
-                        "startOffsets": "446271",
-                        "endLines": "6379",
-                        "endColumns": "12",
-                        "endOffsets": "446381"
+                        "startLines": "1966,2033,2034",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "130296,138516,138567",
+                        "endColumns": "49,50,50",
+                        "endOffsets": "130341,138562,138613"
                     }
                 },
                 {
@@ -262,23 +260,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\aw\\Downloads\\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\\KioskBrowserNoIME_UI_full\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1,3,2",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "16,117,66",
-                        "endColumns": "49,50,50",
-                        "endOffsets": "61,163,112"
-                    },
-                    "to": {
-                        "startLines": "1966,2033,2034",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "130296,138516,138567",
-                        "endColumns": "49,50,50",
-                        "endOffsets": "130341,138562,138613"
-                    }
-                },
-                {
                     "source": "C:\\Users\\aw\\.gradle\\caches\\transforms-3\\f1b556d4e2fb923011b12cae8e98c969\\transformed\\activity-1.8.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -310,6 +291,25 @@
                         "startOffsets": "123240",
                         "endColumns": "42",
                         "endOffsets": "123278"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\aw\\Downloads\\KioskBrowserNoIME_UI_full_patched_v3\\patched3\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "63",
+                        "endLines": "3",
+                        "endColumns": "12",
+                        "endOffsets": "208"
+                    },
+                    "to": {
+                        "startLines": "6377",
+                        "startColumns": "4",
+                        "startOffsets": "446271",
+                        "endLines": "6379",
+                        "endColumns": "12",
+                        "endOffsets": "446381"
                     }
                 },
                 {

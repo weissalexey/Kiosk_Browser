@@ -11,8 +11,8 @@ android {
         applicationId = "com.example.kioskbrowser"
         minSdk = 24
         targetSdk = 29
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 6
+        versionName = "7.0.0"
     }
 
     buildTypes {

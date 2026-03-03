@@ -4,6 +4,18 @@
         "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_keyboard_off.xml"
     },
     {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.example.kioskbrowser.app-merged_res-31:/xml_network_security_config.xml.flat",
         "source": "com.example.kioskbrowser.app-main-33:/xml/network_security_config.xml"
     },
@@ -12,15 +24,71 @@
         "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_settings.xml"
     },
     {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-mdpi/ic_launcher_foreground.webp"
+    },
+    {
         "merged": "com.example.kioskbrowser.app-merged_res-31:/drawable_ic_keyboard.xml.flat",
         "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_keyboard.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "com.example.kioskbrowser.app-merged_res-31:/layout_activity_settings.xml.flat",
         "source": "com.example.kioskbrowser.app-main-33:/layout/activity_settings.xml"
     },
     {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "com.example.kioskbrowser.app-merged_res-31:/layout_activity_main.xml.flat",
         "source": "com.example.kioskbrowser.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.kioskbrowser.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.kioskbrowser.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     }
 ]

@@ -47,6 +47,9 @@ class SettingsActivity : AppCompatActivity() {
         val imgPreview = findViewById<ImageView>(R.id.imgPreview)
         val swBeepOnError = findViewById<SwitchCompat>(R.id.swBeepOnError)
 
+        val swImeEnabled = findViewById<SwitchCompat>(R.id.swImeEnabled)
+        val swKeepSelection = findViewById<SwitchCompat>(R.id.swKeepSelection)
+
         val seekZoom = findViewById<SeekBar>(R.id.seekZoom)
         val tvZoomValue = findViewById<TextView>(R.id.tvZoomValue)
 
@@ -59,6 +62,10 @@ class SettingsActivity : AppCompatActivity() {
 
         // Sound
         swBeepOnError.isChecked = Prefs.isBeepOnError(this)
+
+        // IME / selection
+        swImeEnabled.isChecked = Prefs.isImeEnabled(this)
+        swKeepSelection.isChecked = Prefs.keepSelection(this)
 
         // Zoom: 50..150 (SeekBar 0..100)
         val currentZoom = Prefs.getTextZoom(this)
@@ -97,6 +104,8 @@ class SettingsActivity : AppCompatActivity() {
             Prefs.setBarPosition(this, if (rbBottom.isChecked) "bottom" else "top")
             Prefs.setBarOverlay(this, swBarOverlay.isChecked)
             Prefs.setBeepOnError(this, swBeepOnError.isChecked)
+            Prefs.setImeEnabled(this, swImeEnabled.isChecked)
+            Prefs.setKeepSelection(this, swKeepSelection.isChecked)
             // Prefs.setTextZoom saved live via SeekBar
 
             setResult(Activity.RESULT_OK)

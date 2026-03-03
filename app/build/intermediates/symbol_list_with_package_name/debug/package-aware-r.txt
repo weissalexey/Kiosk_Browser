@@ -2993,6 +2993,7 @@ drawable ic_clock_black_24dp
 drawable ic_keyboard
 drawable ic_keyboard_black_24dp
 drawable ic_keyboard_off
+drawable ic_launcher_background
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -3328,6 +3329,9 @@ id line3
 id linear
 id listMode
 id list_item
+id loadingOverlay
+id loadingSpinner
+id loadingText
 id m3_side_sheet
 id marquee
 id masked
@@ -3523,6 +3527,8 @@ id supportScrollUp
 id swBarEnabled
 id swBarOverlay
 id swBeepOnError
+id swImeEnabled
+id swKeepSelection
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3789,6 +3795,9 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

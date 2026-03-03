@@ -7,6 +7,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -35,6 +37,15 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageButton btnSettings;
 
   @NonNull
+  public final FrameLayout loadingOverlay;
+
+  @NonNull
+  public final ProgressBar loadingSpinner;
+
+  @NonNull
+  public final TextView loadingText;
+
+  @NonNull
   public final ConstraintLayout rootLayout;
 
   @NonNull
@@ -42,13 +53,17 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull FrameLayout barContainer,
       @NonNull ImageView barImage, @NonNull ImageButton btnKeyboard,
-      @NonNull ImageButton btnSettings, @NonNull ConstraintLayout rootLayout,
-      @NonNull NoImeWebView webView) {
+      @NonNull ImageButton btnSettings, @NonNull FrameLayout loadingOverlay,
+      @NonNull ProgressBar loadingSpinner, @NonNull TextView loadingText,
+      @NonNull ConstraintLayout rootLayout, @NonNull NoImeWebView webView) {
     this.rootView = rootView;
     this.barContainer = barContainer;
     this.barImage = barImage;
     this.btnKeyboard = btnKeyboard;
     this.btnSettings = btnSettings;
+    this.loadingOverlay = loadingOverlay;
+    this.loadingSpinner = loadingSpinner;
+    this.loadingText = loadingText;
     this.rootLayout = rootLayout;
     this.webView = webView;
   }
@@ -104,6 +119,24 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.loadingOverlay;
+      FrameLayout loadingOverlay = ViewBindings.findChildViewById(rootView, id);
+      if (loadingOverlay == null) {
+        break missingId;
+      }
+
+      id = R.id.loadingSpinner;
+      ProgressBar loadingSpinner = ViewBindings.findChildViewById(rootView, id);
+      if (loadingSpinner == null) {
+        break missingId;
+      }
+
+      id = R.id.loadingText;
+      TextView loadingText = ViewBindings.findChildViewById(rootView, id);
+      if (loadingText == null) {
+        break missingId;
+      }
+
       ConstraintLayout rootLayout = (ConstraintLayout) rootView;
 
       id = R.id.webView;
@@ -113,7 +146,8 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, barContainer, barImage,
-          btnKeyboard, btnSettings, rootLayout, webView);
+          btnKeyboard, btnSettings, loadingOverlay, loadingSpinner, loadingText, rootLayout,
+          webView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -145,6 +145,30 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Keyboard / Scanner"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swImeEnabled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Allow on-screen keyboard"
+            android:layout_marginTop="8dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swKeepSelection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keep input selected after Enter"
+            android:layout_marginTop="8dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Zoom"
             android:textStyle="bold" />
 

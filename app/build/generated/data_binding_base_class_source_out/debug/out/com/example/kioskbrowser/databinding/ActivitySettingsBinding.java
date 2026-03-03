@@ -69,6 +69,12 @@ public final class ActivitySettingsBinding implements ViewBinding {
   public final SwitchCompat swBeepOnError;
 
   @NonNull
+  public final SwitchCompat swImeEnabled;
+
+  @NonNull
+  public final SwitchCompat swKeepSelection;
+
+  @NonNull
   public final TextView tvZoomValue;
 
   private ActivitySettingsBinding(@NonNull ScrollView rootView, @NonNull Button btnClose,
@@ -77,6 +83,7 @@ public final class ActivitySettingsBinding implements ViewBinding {
       @NonNull RadioButton rbBottom, @NonNull RadioButton rbTop, @NonNull RadioGroup rgBarPosition,
       @NonNull SeekBar seekZoom, @NonNull SwitchCompat swBarEnabled,
       @NonNull SwitchCompat swBarOverlay, @NonNull SwitchCompat swBeepOnError,
+      @NonNull SwitchCompat swImeEnabled, @NonNull SwitchCompat swKeepSelection,
       @NonNull TextView tvZoomValue) {
     this.rootView = rootView;
     this.btnClose = btnClose;
@@ -93,6 +100,8 @@ public final class ActivitySettingsBinding implements ViewBinding {
     this.swBarEnabled = swBarEnabled;
     this.swBarOverlay = swBarOverlay;
     this.swBeepOnError = swBeepOnError;
+    this.swImeEnabled = swImeEnabled;
+    this.swKeepSelection = swKeepSelection;
     this.tvZoomValue = tvZoomValue;
   }
 
@@ -207,6 +216,18 @@ public final class ActivitySettingsBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.swImeEnabled;
+      SwitchCompat swImeEnabled = ViewBindings.findChildViewById(rootView, id);
+      if (swImeEnabled == null) {
+        break missingId;
+      }
+
+      id = R.id.swKeepSelection;
+      SwitchCompat swKeepSelection = ViewBindings.findChildViewById(rootView, id);
+      if (swKeepSelection == null) {
+        break missingId;
+      }
+
       id = R.id.tvZoomValue;
       TextView tvZoomValue = ViewBindings.findChildViewById(rootView, id);
       if (tvZoomValue == null) {
@@ -215,7 +236,7 @@ public final class ActivitySettingsBinding implements ViewBinding {
 
       return new ActivitySettingsBinding((ScrollView) rootView, btnClose, btnExitApp, btnHome,
           btnPickImage, btnSave, edStartUrl, imgPreview, rbBottom, rbTop, rgBarPosition, seekZoom,
-          swBarEnabled, swBarOverlay, swBeepOnError, tvZoomValue);
+          swBarEnabled, swBarOverlay, swBeepOnError, swImeEnabled, swKeepSelection, tvZoomValue);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

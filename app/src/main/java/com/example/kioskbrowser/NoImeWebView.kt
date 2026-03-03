@@ -28,16 +28,17 @@ class NoImeWebView @JvmOverloads constructor(
     private val mainHandler = Handler(Looper.getMainLooper())
 
     init {
-        // Default: kiosk mode -> no system keyboard
+        // Default: do not show IME until MainActivity applies the persisted setting.
+        // This also prevents the "flash loop" on some Android 10 devices.
         setShowSoftInputOnFocusCompat(false)
     }
 
     fun setImeEnabled(enabled: Boolean) {
         imeEnabled = enabled
+        // Key fix for the "IME flash loop":
+        // When IME is disabled, do NOT allow WebView to request soft keyboard on focus.
         setShowSoftInputOnFocusCompat(enabled)
-        if (!enabled) {
-            hideImeAggressive()
-        }
+        if (!enabled) hideImeAggressive()
     }
 
     /**
@@ -66,19 +67,22 @@ class NoImeWebView @JvmOverloads constructor(
     }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
-        if (!imeEnabled) {
-            // Re-apply on every tap (some devices re-enable it internally)
-            setShowSoftInputOnFocusCompat(false)
-            // And immediately close if it still tries to pop
-            hideImeAggressive()
+        // Let WebView process the touch FIRST (focus input / caret / selection).
+        // Hiding IME before WebView consumes the event can prevent text selection/caret
+        // placement on some Android 10 WebView builds.
+        val handled = super.onTouchEvent(event)
+
+        if (!imeEnabled && (event.action == MotionEvent.ACTION_UP || event.action == MotionEvent.ACTION_CANCEL)) {
+            // Post so focus/selection is already applied.
+            post { hideImeAggressive() }
         }
-        return super.onTouchEvent(event)
+
+        return handled
     }
 
     override fun onFocusChanged(focused: Boolean, direction: Int, previouslyFocusedRect: android.graphics.Rect?) {
         super.onFocusChanged(focused, direction, previouslyFocusedRect)
         if (focused && !imeEnabled) {
-            setShowSoftInputOnFocusCompat(false)
             hideImeAggressive()
         }
     }

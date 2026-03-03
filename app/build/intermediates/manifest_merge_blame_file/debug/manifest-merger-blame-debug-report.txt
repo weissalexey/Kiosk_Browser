@@ -1,16 +1,16 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.kioskbrowser"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
+4    android:versionCode="6"
+5    android:versionName="7.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
 9        android:targetSdkVersion="29" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:3:5-67
-11-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:3:22-64
+11-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:3:5-67
+11-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:3:22-64
 12
 13    <permission
 13-->[androidx.core:core:1.12.0] C:\Users\aw\.gradle\caches\transforms-3\01be542a8a7642ecba403b94caa2bdf6\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
@@ -24,56 +24,56 @@
 17-->[androidx.core:core:1.12.0] C:\Users\aw\.gradle\caches\transforms-3\01be542a8a7642ecba403b94caa2bdf6\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:5:5-32:19
+19-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:5:5-32:19
 20        android:allowBackup="true"
-20-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:6:9-35
+20-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:6:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 21-->[androidx.core:core:1.12.0] C:\Users\aw\.gradle\caches\transforms-3\01be542a8a7642ecba403b94caa2bdf6\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 22        android:debuggable="true"
 23        android:extractNativeLibs="false"
 24        android:hardwareAccelerated="true"
-24-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:7:9-43
+24-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:7:9-43
 25        android:label="KioskBrowser"
-25-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:8:9-37
+25-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:8:9-37
 26        android:networkSecurityConfig="@xml/network_security_config"
-26-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:12:9-69
+26-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:12:9-69
 27        android:supportsRtl="true"
-27-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:9:9-35
+27-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:9:9-35
 28        android:theme="@style/Theme.KioskBrowser"
-28-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:10:9-50
+28-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:10:9-50
 29        android:usesCleartextTraffic="true" >
-29-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:11:9-44
+29-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:11:9-44
 30        <activity
-30-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:14:9-17:47
+30-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:14:9-17:47
 31            android:name="com.example.kioskbrowser.SettingsActivity"
-31-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:15:13-45
+31-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:15:13-45
 32            android:exported="false"
-32-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:16:13-37
+32-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:16:13-37
 33            android:launchMode="singleTask" />
-33-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:17:13-44
+33-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:17:13-44
 34        <activity
-34-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:19:9-30:20
+34-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:19:9-30:20
 35            android:name="com.example.kioskbrowser.MainActivity"
-35-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:20:13-41
+35-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:20:13-41
 36            android:exported="true"
-36-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:21:13-36
+36-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:21:13-36
 37            android:hardwareAccelerated="true"
-37-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:23:13-47
+37-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:23:13-47
 38            android:launchMode="singleTask"
-38-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:22:13-44
+38-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:22:13-44
 39            android:screenOrientation="portrait"
-39-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:24:13-49
+39-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:24:13-49
 40            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" >
-40-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:25:13-73
+40-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:25:13-73
 41            <intent-filter>
-41-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:26:13-29:29
+41-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:26:13-29:29
 42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:27:17-69
-42-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:27:25-66
+42-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:27:17-69
+42-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:27:25-66
 43
 44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:28:17-77
-44-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_FINAL_v2.5.5\KioskBrowserNoIME_UI_full\app\src\main\AndroidManifest.xml:28:27-74
+44-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:28:17-77
+44-->C:\Users\aw\Downloads\KioskBrowserNoIME_UI_full_patched_v3\patched3\app\src\main\AndroidManifest.xml:28:27-74
 45            </intent-filter>
 46        </activity>
 47
